@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="enter.js"></script>
+        <link  rel="stylesheet" href="style.css">
+       <title>the math quiz</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="myb">
+
+       <section id="score_section">
+       <p id="player1_name">player_1</p><span id="player1_score">0</span>
+       <p id="player2_name">player_2</p><span id="player2_score">0</span>
+       </section>
+
+        <section id="start_section"><h1 id="heading">
+            the math quiz
+        </h1>
+
+        <h2 id="player_question">question turn:</h2>
+        <h2 id="player_answer">answer turn:</h2>
+        
+    
+   <center>
+       <div id="quiz_div">
+<br> <br>      
+</div>
+<br>
+        <div> 
+           
+         <label>note:</label>
+         &nbsp;
+         <h2 class="heading_2">
+            please give the numbers which have less than 3 digits  </h2>
+ <input id="number1" placeholder="please enter number" type="text" class="form-control">
+ <br><br>
+ <input id="number2" placeholder="please enter number" type="text" class="form-control">
+ 
+ <br>
+         </div>
+         <br>
+         <button class="btn btn-primary" onclick="send()">send numbers</button>
+    </center> 
+</section>   
+    </body>
+</html>
